@@ -144,22 +144,6 @@ BPTT allows RNNs to learn from sequential data by propagating gradients through 
 - Matplotlib
 - Scikit-learn
 
-## Installation
-
-To install the required dependencies, you can use the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Optional: Install TensorFlow Probability for Bayesian Models
-
-For Bayesian models (such as Bayesian LSTM), you will need to install `tensorflow-probability`:
-
-```bash
-pip install tensorflow-probability
-```
-
 ## Usage
 
 1. **Prepare Your Data**: Ensure your time-series data is in the correct format. The data should be divided into training, validation, and test sets.
@@ -212,9 +196,3 @@ For each model, you can track the following metrics during evaluation:
 ## Contributing
 
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
